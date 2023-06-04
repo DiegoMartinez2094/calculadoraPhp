@@ -51,7 +51,7 @@ else {
             <button class="boton" type="submit" name="numero" value="←">←</button>
             <button class="boton" type="submit" name="numero" value="c">c</button>
             <button class="boton" type="submit" name="numero" value="/">/</button> <br><br>
-            <button class="boton" type="submit" name="numero" value="=">=</button>
+            <button class="botonIgual" type="submit" name="numero" value="=">=</button>
         </form>
     </div>
 </body>

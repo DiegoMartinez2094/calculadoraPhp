@@ -1,0 +1,36 @@
+.container{
+    margin-top: 50px;
+    margin-left: 700px;
+    background-color: darkgrey;
+    width: 460px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.boton{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+.botonIgual{
+    width: 400px;
+    height: 100px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+.caja{
+    width: 410px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 30px;
+
+}
