@@ -43,23 +43,26 @@ else {
     <div class="container">
         <form method="POST">
             <input class="caja" type="text" name="resultado" value="<?php echo isset($_SESSION['num1']) ? $_SESSION['num1'] : 0; ?>" readonly> <br><br>
-            <button class="boton" type="submit" name="numero" value="1">1</button>
-            <button class="boton" type="submit" name="numero" value="2">2</button>
-            <button class="boton" type="submit" name="numero" value="3">3</button>
+            <button class="boton" type="submit" name="numero" value="7">7</button>
+            <button class="boton" type="submit" name="numero" value="8">8</button>
+            <button class="boton" type="submit" name="numero" value="9">9</button>
             <button class="boton" type="submit" name="numero" value="-">-</button> <br><br>
             <button class="boton" type="submit" name="numero" value="4">4</button>
             <button class="boton" type="submit" name="numero" value="5">5</button>
             <button class="boton" type="submit" name="numero" value="6">6</button>
             <button class="boton" type="submit" name="numero" value="+">+</button> <br><br>
-            <button class="boton" type="submit" name="numero" value="7">7</button>
-            <button class="boton" type="submit" name="numero" value="8">8</button>
-            <button class="boton" type="submit" name="numero" value="9">9</button>
+            <button class="boton" type="submit" name="numero" value="1">1</button>
+            <button class="boton" type="submit" name="numero" value="2">2</button>
+            <button class="boton" type="submit" name="numero" value="3">3</button>
             <button class="boton" type="submit" name="numero" value="*">x</button> <br><br>
-            <button class="boton" type="submit" name="numero" value="0">0</button>
             <button class="boton" type="submit" name="numero" value="←">←</button>
+            <button class="boton" type="submit" name="numero" value="0">0</button>
             <button class="boton" type="submit" name="numero" value="c">c</button>
             <button class="boton" type="submit" name="numero" value="/">/</button> <br><br>
-            <button class="botonIgual" type="submit" name="numero" value="=">=</button>
+            <button class="boton" type="submit" name="numero" value="(">(</button>
+            <button class="boton" type="submit" name="numero" value=")">)</button>
+            <button class="boton" type="submit" name="numero" value=".">.</button>
+            <button class="boton" type="submit" name="numero" value="=">=</button>
         </form>
     </div>
 </body>
