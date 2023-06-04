@@ -9,7 +9,15 @@ if ($_POST['numero'] == "c") {
     } else if ($_POST['numero'] == "←") {              
 $_SESSION['num1'] = substr($_SESSION['num1'], 0, -1);   
     }   
-
+else if ($_POST['numero'] == "=") {
+              
+if (isset($_SESSION['num1'])) {
+                                          
+$resultado = eval('return '.$_SESSION['num1'].';');
+                      
+$_SESSION['num1'] = $resultado;
+        }
+    } 
        
 else {
         if (isset($_SESSION['num1'])) {
